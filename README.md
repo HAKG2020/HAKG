@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Subgraph-enhanced Knowledge Graph Embedding (SKGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. Built upon the graph neural network framework, SKGE explicitly models the semantics encoded in KGs with expressive subgraphs to provide better recommendation with side information.
+Subgraph-enhanced Knowledge Graph Embedding (SKGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. Built upon the bi-directional GRU network, SKGE explicitly models the semantics encoded in KGs with expressive subgraphs to provide better recommendation with side information.
 
 ## Environment Requirement
 + Python 2.7
@@ -65,9 +65,11 @@ For clarify, hereafter we use movieLens dataset as a toy example to demonstrate 
 
    + Model for Attentive Graph Neural Network
 
-+ Train and Test (Train.py, Test.py)
++ Train and Test (Train.py, Test.py, Main.py)
 
    + Feed both postive and negative path into the SKGE, train and evaluate the model
+   
+   + You can run Main.py to start training and testing the model. 
  
    
 ## References
