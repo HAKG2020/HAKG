@@ -61,11 +61,11 @@ For clarify, hereafter we use movieLens dataset as a toy example to demonstrate 
    
    + Output Data: sampled path for positive/negtiave/test user-item pair
 
-+ SKGE (model.py)
++ SKGE (GRUmodel.py)
 
    + Model for Attentive Graph Neural Network
 
-+ Train and Test (Train.py, Test.py, Main.py)
++ Train and Test (GRUTrain.py, Main.py)
 
    + Feed both postive and negative path into the SKGE, train and evaluate the model
    
