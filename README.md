@@ -1,8 +1,8 @@
-# SKGE
+# HKGE
 
 ## Introduction 
 
-Subgraph-enhanced Knowledge Graph Embedding (SKGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. Built upon the bi-directional GRU network, SKGE explicitly models the semantics encoded in KGs with expressive subgraphs to provide better recommendation with side information.
+Hirerarchical Knowledge Graph Embedding (HKGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. HKGE exploits the user-item connectivities in knowledge graphs with expressive subgraphs to provide better recommendation.
 
 ## Environment Requirement
 + Python 2.7
@@ -35,7 +35,7 @@ and attribute) as KG data. The format is as follows:
       
 ## Modules 
 
-For clarify, hereafter we use movieLens dataset as a toy example to demonstrate the detailed modules of AGNN. 
+For clarify, hereafter we use movieLens dataset as a toy example to demonstrate the detailed modules of HKGE. 
 
 + Data Split (split_train_test.py)
 
@@ -60,10 +60,6 @@ For clarify, hereafter we use movieLens dataset as a toy example to demonstrate 
    + Input Data: user-movie interaction for positive/negative/test rating
    
    + Output Data: sampled path for positive/negtiave/test user-item pair
-
-+ SKGE (GRUmodel.py)
-
-   + Model for Attentive Graph Neural Network
 
 + Train and Test (GRUTrain.py, Main.py)
 
