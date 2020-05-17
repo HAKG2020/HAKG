@@ -61,9 +61,9 @@ For clarify, hereafter we use movieLens dataset as a toy example to demonstrate 
    
    + Output Data: sampled path for positive/negtiave/test user-item pair
 
-+ Train and Test (GRUTrain.py, Main.py)
++ Train and Test (Train.py, Main.py)
 
-   + Feed both postive and negative path into the SKGE, train and evaluate the model
+   + Feed both postive and negative path into the HAKG, train and evaluate the model
    
    + You can run Main.py to start training and testing the model. 
  
