@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Hirerarchical Knowledge Graph Embedding (HKGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. HKGE exploits the user-item connectivities in knowledge graphs with expressive subgraphs to provide better recommendation.
+Hirerarchical Attentive Knowledge Graph Embedding (HAGE) is a new recommendation framework tailored to knowledge graph-based personalized recommendation. HKGE exploits the user-item connectivities in knowledge graphs with expressive subgraphs to provide better recommendation.
 
 ## Environment Requirement
 + Python 2.7
